@@ -1,0 +1,16 @@
+# Test Instance Config
+name: "Harry-Test-01"
+model: "minimax/MiniMax-M2.1"
+timezone: "Asia/Hong_Kong"
+
+# Learning enabled
+learning:
+  daily_log: "/root/clawd/learning/daily/"
+  memory: "/root/clawd/MEMORY.md"
+  evolution: "/root/clawd/experiments/evolution-log.md"
+
+# Experiment features
+experiments:
+  - classical-chinese
+  - self-evolution
+  - multi-agent
